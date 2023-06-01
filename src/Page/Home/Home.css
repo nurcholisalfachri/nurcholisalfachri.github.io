@@ -1,0 +1,56 @@
+.btn {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #0f68b1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1573c0;
+}
+
+.disable {
+    background: gray;
+    border: 1px solid gray;
+}
+
+.disable:hover {
+    cursor: not-allowed;
+    background-color: gray;
+}
+
+.select {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    width: 700px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.post {
+    text-align: center;
+    padding: 15px;
+    background-color: #2196f3;
+    color: white;
+}
+
+.label {
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.label:hover {
+    text-decoration: underline ;
+}
+
+.value {
+    padding: 0 15px;
+}
